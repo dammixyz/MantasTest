@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040581F528EC4093001BAC8C /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040581F428EC4093001BAC8C /* Users.swift */; };
+		040581F728EC41A2001BAC8C /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040581F628EC41A2001BAC8C /* TitleText.swift */; };
+		040581FB28EC517D001BAC8C /* UserInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040581FA28EC517D001BAC8C /* UserInfoCard.swift */; };
+		040581FD28EC61CB001BAC8C /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040581FC28EC61CB001BAC8C /* Validator.swift */; };
+		0405820028EC63D7001BAC8C /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040581FF28EC63D7001BAC8C /* AuthViewModel.swift */; };
 		04EF77CC28EB0B1000117B8C /* MantasTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77CB28EB0B1000117B8C /* MantasTestApp.swift */; };
 		04EF77D028EB0B1600117B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF77CF28EB0B1600117B8C /* Assets.xcassets */; };
 		04EF77D328EB0B1600117B8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF77D228EB0B1600117B8C /* Preview Assets.xcassets */; };
@@ -26,6 +31,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040581F428EC4093001BAC8C /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		040581F628EC41A2001BAC8C /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
+		040581FA28EC517D001BAC8C /* UserInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoCard.swift; sourceTree = "<group>"; };
+		040581FC28EC61CB001BAC8C /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		040581FF28EC63D7001BAC8C /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		04EF77C828EB0B1000117B8C /* MantasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MantasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EF77CB28EB0B1000117B8C /* MantasTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantasTestApp.swift; sourceTree = "<group>"; };
 		04EF77CF28EB0B1600117B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040581FE28EC63BB001BAC8C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				040581FF28EC63D7001BAC8C /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		04EF77BF28EB0B0F00117B8C = {
 			isa = PBXGroup;
 			children = (
@@ -76,12 +94,12 @@
 		04EF77CA28EB0B1000117B8C /* MantasTest */ = {
 			isa = PBXGroup;
 			children = (
+				040581FE28EC63BB001BAC8C /* ViewModels */,
 				04EF77E528EB238200117B8C /* Helpers */,
 				04EF77DD28EB1B8300117B8C /* Views */,
 				04EF77DA28EB19DA00117B8C /* Fonts */,
 				04EF77D928EB188500117B8C /* Info.plist */,
 				04EF77CB28EB0B1000117B8C /* MantasTestApp.swift */,
-				04EF77E328EB22ED00117B8C /* MainView.swift */,
 				04EF77CF28EB0B1600117B8C /* Assets.xcassets */,
 				04EF77D128EB0B1600117B8C /* Preview Content */,
 			);
@@ -111,6 +129,8 @@
 			children = (
 				04EF77DE28EB1BA000117B8C /* SubViews */,
 				04EF77E828EB2A5800117B8C /* Login.swift */,
+				040581F428EC4093001BAC8C /* Users.swift */,
+				04EF77E328EB22ED00117B8C /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,6 +142,8 @@
 				04EF77DF28EB1BFD00117B8C /* GeneralTextField.swift */,
 				04EF77F328EB427C00117B8C /* GeneralButtonBG.swift */,
 				04EF77F928EB4A4600117B8C /* VSpacer.swift */,
+				040581F628EC41A2001BAC8C /* TitleText.swift */,
+				040581FA28EC517D001BAC8C /* UserInfoCard.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -130,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				04EF77E628EB23AD00117B8C /* FocusedField.swift */,
+				040581FC28EC61CB001BAC8C /* Validator.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -220,15 +243,20 @@
 			files = (
 				04EF77E028EB1BFD00117B8C /* GeneralTextField.swift in Sources */,
 				04EF77EC28EB3ED200117B8C /* TextFeildErrorText.swift in Sources */,
+				040581FB28EC517D001BAC8C /* UserInfoCard.swift in Sources */,
 				04EF77F228EB3F9200117B8C /* TextFieldBG.swift in Sources */,
 				04EF77E928EB2A5800117B8C /* Login.swift in Sources */,
+				040581F528EC4093001BAC8C /* Users.swift in Sources */,
 				04EF77E428EB22ED00117B8C /* MainView.swift in Sources */,
+				040581FD28EC61CB001BAC8C /* Validator.swift in Sources */,
 				04EF77CC28EB0B1000117B8C /* MantasTestApp.swift in Sources */,
 				04EF77E728EB23AD00117B8C /* FocusedField.swift in Sources */,
 				04EF77EE28EB3F2100117B8C /* ClearButton.swift in Sources */,
 				04EF77F028EB3F5100117B8C /* HideShowPassword.swift in Sources */,
+				0405820028EC63D7001BAC8C /* AuthViewModel.swift in Sources */,
 				04EF77FA28EB4A4600117B8C /* VSpacer.swift in Sources */,
 				04EF77F428EB427D00117B8C /* GeneralButtonBG.swift in Sources */,
+				040581F728EC41A2001BAC8C /* TitleText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

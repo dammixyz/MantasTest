@@ -19,9 +19,7 @@ struct GeneralTextField: View {
     var textInputAutocapitalization: TextInputAutocapitalization? = .never
     var textContentType: UITextContentType? = .name
     var submitLabel: SubmitLabel = .next
-    var icon : String? = nil
-    var hasError : Bool = false
-    var errorText : String = ""
+    var errorText : String? = nil
     
     var body: some View {
         VStack(spacing: 0){
@@ -43,15 +41,16 @@ struct GeneralTextField: View {
                 .padding(.vertical, 15)
                 .padding(.horizontal, 2)
                 .font(.custom("Poppins", size: 17))
+                .foregroundColor(errorText != nil ? Color("error") : Color("app_black"))
                 HideShowPassword(isPasswordField: $isPasswordField, hasPasswordField: hasPasswordField, text: text)
                 text == "" ? nil : ClearButton(text: $text)
                 
             }
             .padding(.horizontal)
             .background(
-                TextFieldBG(hasError: hasError)
+                TextFieldBG(errorText: errorText)
             )
-            TextFeildErrorText(errorText: errorText, hasError: hasError)
+            TextFeildErrorText(errorText: errorText)
         }
     }
 }

@@ -12,7 +12,7 @@ struct GeneralButtonBG: View {
     var bgcolor = "button_bg"
     var fgcolor = "app_white"
     var cornerRadius = 8
-    var height = 50
+    var height = 52
     var body: some View {
         RoundedRectangle(cornerRadius: CGFloat(cornerRadius))
             .fill(Color(bgcolor))

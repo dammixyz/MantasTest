@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct TextFieldBG: View {
-    var hasError : Bool
+    let errorText : String?
     var body: some View {
         RoundedRectangle(cornerRadius: 8)
             .fill(Color("textfield_bg"))
             .background(
                 RoundedRectangle(cornerRadius: 8)
-                    .stroke(hasError ? Color("error") : Color.clear, lineWidth: 1)
+                    .stroke((errorText != nil) ? Color("error") : Color.clear, lineWidth: 1)
             )
     }
 }

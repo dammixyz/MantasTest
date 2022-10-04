@@ -9,7 +9,14 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Login()
+        NavigationView{
+            ZStack{
+                Login()
+            }
+        }
+        .navigationTitle("")
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 
