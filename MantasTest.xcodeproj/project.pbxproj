@@ -8,17 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		04EF77CC28EB0B1000117B8C /* MantasTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77CB28EB0B1000117B8C /* MantasTestApp.swift */; };
-		04EF77CE28EB0B1000117B8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77CD28EB0B1000117B8C /* ContentView.swift */; };
 		04EF77D028EB0B1600117B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF77CF28EB0B1600117B8C /* Assets.xcassets */; };
 		04EF77D328EB0B1600117B8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF77D228EB0B1600117B8C /* Preview Assets.xcassets */; };
+		04EF77DC28EB1A3700117B8C /* Poppins.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04EF77DB28EB1A3600117B8C /* Poppins.ttf */; };
+		04EF77E028EB1BFD00117B8C /* GeneralTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77DF28EB1BFD00117B8C /* GeneralTextField.swift */; };
+		04EF77E428EB22ED00117B8C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77E328EB22ED00117B8C /* MainView.swift */; };
+		04EF77E728EB23AD00117B8C /* FocusedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77E628EB23AD00117B8C /* FocusedField.swift */; };
+		04EF77E928EB2A5800117B8C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77E828EB2A5800117B8C /* Login.swift */; };
+		04EF77EC28EB3ED200117B8C /* TextFeildErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77EB28EB3ED100117B8C /* TextFeildErrorText.swift */; };
+		04EF77EE28EB3F2100117B8C /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77ED28EB3F2100117B8C /* ClearButton.swift */; };
+		04EF77F028EB3F5100117B8C /* HideShowPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77EF28EB3F5100117B8C /* HideShowPassword.swift */; };
+		04EF77F228EB3F9200117B8C /* TextFieldBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77F128EB3F9200117B8C /* TextFieldBG.swift */; };
+		04EF77F428EB427D00117B8C /* GeneralButtonBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77F328EB427C00117B8C /* GeneralButtonBG.swift */; };
+		04EF77F628EB470A00117B8C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04EF77F528EB470900117B8C /* Poppins-Bold.ttf */; };
+		04EF77F828EB483F00117B8C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04EF77F728EB483F00117B8C /* Poppins-SemiBold.ttf */; };
+		04EF77FA28EB4A4600117B8C /* VSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF77F928EB4A4600117B8C /* VSpacer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04EF77C828EB0B1000117B8C /* MantasTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MantasTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EF77CB28EB0B1000117B8C /* MantasTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantasTestApp.swift; sourceTree = "<group>"; };
-		04EF77CD28EB0B1000117B8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04EF77CF28EB0B1600117B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EF77D228EB0B1600117B8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04EF77D928EB188500117B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04EF77DB28EB1A3600117B8C /* Poppins.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poppins.ttf; sourceTree = "<group>"; };
+		04EF77DF28EB1BFD00117B8C /* GeneralTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTextField.swift; sourceTree = "<group>"; };
+		04EF77E328EB22ED00117B8C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		04EF77E628EB23AD00117B8C /* FocusedField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedField.swift; sourceTree = "<group>"; };
+		04EF77E828EB2A5800117B8C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		04EF77EB28EB3ED100117B8C /* TextFeildErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFeildErrorText.swift; sourceTree = "<group>"; };
+		04EF77ED28EB3F2100117B8C /* ClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
+		04EF77EF28EB3F5100117B8C /* HideShowPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideShowPassword.swift; sourceTree = "<group>"; };
+		04EF77F128EB3F9200117B8C /* TextFieldBG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBG.swift; sourceTree = "<group>"; };
+		04EF77F328EB427C00117B8C /* GeneralButtonBG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralButtonBG.swift; sourceTree = "<group>"; };
+		04EF77F528EB470900117B8C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		04EF77F728EB483F00117B8C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		04EF77F928EB4A4600117B8C /* VSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSpacer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +76,12 @@
 		04EF77CA28EB0B1000117B8C /* MantasTest */ = {
 			isa = PBXGroup;
 			children = (
+				04EF77E528EB238200117B8C /* Helpers */,
+				04EF77DD28EB1B8300117B8C /* Views */,
+				04EF77DA28EB19DA00117B8C /* Fonts */,
+				04EF77D928EB188500117B8C /* Info.plist */,
 				04EF77CB28EB0B1000117B8C /* MantasTestApp.swift */,
-				04EF77CD28EB0B1000117B8C /* ContentView.swift */,
+				04EF77E328EB22ED00117B8C /* MainView.swift */,
 				04EF77CF28EB0B1600117B8C /* Assets.xcassets */,
 				04EF77D128EB0B1600117B8C /* Preview Content */,
 			);
@@ -65,6 +94,55 @@
 				04EF77D228EB0B1600117B8C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04EF77DA28EB19DA00117B8C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04EF77F728EB483F00117B8C /* Poppins-SemiBold.ttf */,
+				04EF77F528EB470900117B8C /* Poppins-Bold.ttf */,
+				04EF77DB28EB1A3600117B8C /* Poppins.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04EF77DD28EB1B8300117B8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04EF77DE28EB1BA000117B8C /* SubViews */,
+				04EF77E828EB2A5800117B8C /* Login.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04EF77DE28EB1BA000117B8C /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				04EF77EA28EB3EAB00117B8C /* TextField */,
+				04EF77DF28EB1BFD00117B8C /* GeneralTextField.swift */,
+				04EF77F328EB427C00117B8C /* GeneralButtonBG.swift */,
+				04EF77F928EB4A4600117B8C /* VSpacer.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		04EF77E528EB238200117B8C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04EF77E628EB23AD00117B8C /* FocusedField.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		04EF77EA28EB3EAB00117B8C /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				04EF77EB28EB3ED100117B8C /* TextFeildErrorText.swift */,
+				04EF77ED28EB3F2100117B8C /* ClearButton.swift */,
+				04EF77EF28EB3F5100117B8C /* HideShowPassword.swift */,
+				04EF77F128EB3F9200117B8C /* TextFieldBG.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +203,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EF77F828EB483F00117B8C /* Poppins-SemiBold.ttf in Resources */,
+				04EF77DC28EB1A3700117B8C /* Poppins.ttf in Resources */,
 				04EF77D328EB0B1600117B8C /* Preview Assets.xcassets in Resources */,
 				04EF77D028EB0B1600117B8C /* Assets.xcassets in Resources */,
+				04EF77F628EB470A00117B8C /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EF77CE28EB0B1000117B8C /* ContentView.swift in Sources */,
+				04EF77E028EB1BFD00117B8C /* GeneralTextField.swift in Sources */,
+				04EF77EC28EB3ED200117B8C /* TextFeildErrorText.swift in Sources */,
+				04EF77F228EB3F9200117B8C /* TextFieldBG.swift in Sources */,
+				04EF77E928EB2A5800117B8C /* Login.swift in Sources */,
+				04EF77E428EB22ED00117B8C /* MainView.swift in Sources */,
 				04EF77CC28EB0B1000117B8C /* MantasTestApp.swift in Sources */,
+				04EF77E728EB23AD00117B8C /* FocusedField.swift in Sources */,
+				04EF77EE28EB3F2100117B8C /* ClearButton.swift in Sources */,
+				04EF77F028EB3F5100117B8C /* HideShowPassword.swift in Sources */,
+				04EF77FA28EB4A4600117B8C /* VSpacer.swift in Sources */,
+				04EF77F428EB427D00117B8C /* GeneralButtonBG.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +362,9 @@
 				DEVELOPMENT_TEAM = MSWL3986AN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MantasTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,9 +391,9 @@
 				DEVELOPMENT_TEAM = MSWL3986AN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MantasTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

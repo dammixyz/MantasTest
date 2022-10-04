@@ -11,7 +11,7 @@ import SwiftUI
 struct MantasTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
