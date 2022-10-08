@@ -11,11 +11,19 @@ struct UserInfoCard: View {
     let image, name, email, address, phone_no: String
     var body: some View {
         HStack(alignment: .top){
-            Image(image)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 50, height: 50)
-                .clipShape(Circle())
+            AsyncImage(url: URL(string: image)){pic in
+                pic
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+            } placeholder: {
+                Image("user_placeholder")
+                    .renderingMode(.template)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+            }
+            .clipShape(Circle())
+            .frame(width: 50, height: 50)
+            
             VStack(alignment: .leading){
                 TitleText(text: name, size: CGFloat(18))
                 Text("\(Text("Email:").bold()) \(email)")
