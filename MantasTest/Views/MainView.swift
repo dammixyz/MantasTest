@@ -13,6 +13,7 @@ struct MainView: View {
             ZStack{
                 Login()
             }
+            .preferredColorScheme(.light)
         }
         .navigationTitle("")
         .navigationBarHidden(true)
